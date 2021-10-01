@@ -1,0 +1,4 @@
+---
+chat-format: |
+  <{player}> {message}
+...
