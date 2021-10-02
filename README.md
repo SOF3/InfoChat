@@ -17,4 +17,4 @@ chat-format: |
 	[{player world}] <{player}> {message}
 ```
 
-	[infoapi readme]: https://github.com/SOF3/InfoAPI/tree/ae0e2ad01d3127c885d0d7bef9b9ec4d5fce9ebe#more-detailed-templates
+[infoapi readme]: https://github.com/SOF3/InfoAPI/tree/ae0e2ad01d3127c885d0d7bef9b9ec4d5fce9ebe#more-detailed-templates
