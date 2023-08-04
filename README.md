@@ -1,20 +1,14 @@
 # InfoChat
-A simple chat format plugin powered by [InfoAPI](https://poggit.pmmp.io/p/InfoAPI).
+
+A bare minimum example plugin that uses [InfoAPI](https://github.com/SOF3/InfoAPI).
 
 ## Usage
-Run the server once, stop it, then edit the `plugin_data/InfoChat/config.yml`:
 
-```yaml
-chat-format: |
-	<{player}> {message}
-```
+Download development plugin build from
+[GitHub pages](https://sof3.github.io/InfoChat/InfoChat.phar)
+or [Poggit build](https://poggit.pmmp.io/ci/SOF3/InfoChat),
+or build your own phar using [pharynx](https://github.com/SOF3/pharynx).
 
-You can use other detail infos provided by InfoAPI
-(see [InfoAPI readme][infoapi readme] for more information):
-
-```yaml
-chat-format: |
-	[{player world}] <{player}> {message}
-```
-
-	[infoapi readme]: https://github.com/SOF3/InfoAPI/tree/ae0e2ad01d3127c885d0d7bef9b9ec4d5fce9ebe#more-detailed-templates
+Customize player join message!
+The plugin only provides one config `message-format`,
+which only one variable `player` which is the joining player.

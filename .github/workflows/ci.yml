@@ -3,19 +3,29 @@ on:
   - push
   - pull_request
 jobs:
-  phpstan:
-    name: phpstan analyze
-    runs-on: ubuntu-latest
+  pharynx:
+    name: build phar
+    permissions:
+      contents: write
+    runs-on: ubuntu-20.04
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     strategy:
       matrix:
-        php-version:
-          - "8.0"
+        php:
+          - "8.2"
     steps:
-      - uses: actions/checkout@v2
-      - uses: shivammathur/setup-php@v2
+      - uses: actions/checkout@v3
+      - uses: pmmp/setup-php-action@main
         with:
-          php-version: ${{matrix.php-version}}
-          tools: composer
-      - run: composer update --optimize-autoloader --ignore-platform-reqs
-      - name: phpstan analyze
-        run: vendor/bin/phpstan
+          php-version: ${{ matrix.php }}
+          install-path: "../bin"
+          pm-version-major: "5"
+      - uses: SOF3/pharynx@v0.2
+        id: pharynx
+      - uses: actions/upload-artifact@v3
+        with:
+          name: plugin.phar
+          path: ${{steps.pharynx.outputs.output-phar}}
+
+      - run: mkdir _site && cp ${{steps.pharynx.outputs.output-phar}} _site/InfoChat.phar
+      - uses: actions/upload-pages-artifact@v2

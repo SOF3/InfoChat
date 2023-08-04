@@ -1,4 +1,2 @@
----
-chat-format: |
-  <{player}> {message}
-...
+message-format: |
+  {yellow}{player} {white}joined the server in world {aqua}"{player world}".
