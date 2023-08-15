@@ -14,7 +14,7 @@
 	"sof3/infoapi": "dev-master"
     },
     "require-dev": {
-        "sof3/pharynx": "^0.3.0",
+        "sof3/pharynx": "^0.3.6",
         "friendsofphp/php-cs-fixer": "^3.4",
         "phpstan/phpstan": "^1.2"
     },

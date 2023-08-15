@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf7ace3e81f9ed916c07e7877c55a6c0",
+    "content-hash": "06d00dd1fef8212bf4593ff20834a788",
     "packages": [
         {
             "name": "adhocore/json-comment",
@@ -2972,16 +2972,16 @@
         },
         {
             "name": "sof3/pharynx",
-            "version": "0.3.5",
+            "version": "0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SOF3/pharynx.git",
-                "reference": "de3da03a6b2fdc40c4d9e41a19a74eabefe8cf59"
+                "reference": "1247c5ab35080a292d47c2c5bab758ecd5e7cd64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SOF3/pharynx/zipball/de3da03a6b2fdc40c4d9e41a19a74eabefe8cf59",
-                "reference": "de3da03a6b2fdc40c4d9e41a19a74eabefe8cf59",
+                "url": "https://api.github.com/repos/SOF3/pharynx/zipball/1247c5ab35080a292d47c2c5bab758ecd5e7cd64",
+                "reference": "1247c5ab35080a292d47c2c5bab758ecd5e7cd64",
                 "shasum": ""
             },
             "require": {
@@ -3014,9 +3014,9 @@
             ],
             "support": {
                 "issues": "https://github.com/SOF3/pharynx/issues",
-                "source": "https://github.com/SOF3/pharynx/tree/0.3.5"
+                "source": "https://github.com/SOF3/pharynx/tree/0.3.6"
             },
-            "time": "2023-08-04T14:28:27+00:00"
+            "time": "2023-08-15T14:20:05+00:00"
         },
         {
             "name": "symfony/console",
