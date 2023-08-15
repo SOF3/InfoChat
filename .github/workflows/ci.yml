@@ -29,3 +29,4 @@ jobs:
 
       - run: mkdir _site && cp ${{steps.pharynx.outputs.output-phar}} _site/InfoChat.phar
       - uses: actions/upload-pages-artifact@v2
+      - uses: actions/deploy-pages@v1
