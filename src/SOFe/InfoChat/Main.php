@@ -8,7 +8,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\lang\Translatable;
 use pocketmine\plugin\PluginBase;
-use SOFe\InfoChat\libs\_c1fc47fb389b5bfc\SOFe\InfoAPI\InfoAPI;
+use SOFe\InfoChat\libs\_2343b7fae52ef2ce\SOFe\InfoAPI\InfoAPI;
 
 final class Main extends PluginBase implements Listener {
 	public function onEnable() : void {
