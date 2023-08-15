@@ -1,2 +1,2 @@
-message-format: |
+message-format: |-
   {yellow}{player} {white}joined the server in world {aqua}"{player world}".
