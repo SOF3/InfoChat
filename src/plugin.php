@@ -13,6 +13,7 @@ use SOFe\InfoAPI\InfoAPI;
 final class Main extends PluginBase implements Listener {
 	public function onEnable() : void {
 		$this->saveDefaultConfig();
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 
 	public function onChat(PlayerJoinEvent $event) : void {
