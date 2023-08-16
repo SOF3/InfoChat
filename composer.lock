@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06d00dd1fef8212bf4593ff20834a788",
+    "content-hash": "16758105614673a04ca56d005b5c9863",
     "packages": [
         {
             "name": "adhocore/json-comment",
@@ -1073,7 +1073,7 @@
         },
         {
             "name": "sof3/infoapi",
-            "version": "dev-master",
+            "version": "2.0.0-beta.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SOF3/InfoAPI.git",
@@ -1100,7 +1100,6 @@
                 "phpunit/phpunit": "^9.5.0",
                 "sof3/pharynx": "^0.3.4"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "virion": {
@@ -1121,7 +1120,7 @@
             ],
             "support": {
                 "issues": "https://github.com/SOF3/InfoAPI/issues",
-                "source": "https://github.com/SOF3/InfoAPI/tree/master"
+                "source": "https://github.com/SOF3/InfoAPI/tree/2.0.0-beta.1"
             },
             "time": "2023-08-15T15:29:36+00:00"
         },
@@ -4163,7 +4162,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sof3/infoapi": 20
+        "sof3/infoapi": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
