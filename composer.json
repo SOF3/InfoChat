@@ -9,8 +9,6 @@
     },
     "require": {
         "pocketmine/pocketmine-mp": "^5.0.0",
-        "sof3/await-generator": "^3.5.2",
-        "sof3/zleep": "^0.1.0",
 	"sof3/infoapi": "^2.0.0-beta.1"
     },
     "require-dev": {
